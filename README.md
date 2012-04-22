@@ -29,4 +29,4 @@ Content:
 - http://en.wikipedia.org/wiki/YAML
 
 Design:
-https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
+- https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
