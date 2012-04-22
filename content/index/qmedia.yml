@@ -1,0 +1,52 @@
+title: Science and Technology research for media and the arts
+body: |
+ qMedia is a research initiative at Queen Mary, University of London focusing on digital technologies for media and the arts. With over 200 active researchers, it brings together a multi-disciplinary consortium of existing groups to conduct world-class research in digital media technologies and disseminate knowledge to the wider community.
+links: 
+  - url: http://vimeo.com/40678645
+    name: Watch our three minute film
+  - url: /openstudios
+    name: 25-27 May - qMedia Open Studios
+  
+sections:
+  - title: Founding groups
+    colour: green
+    boxes:
+      - title: C4DM
+        subtitle: Centre for Digital Music
+        body: |
+          C4DM is a multidisciplinary research group in the field of music & audio technology whose work includes music informatics, machine listening, audio engineering and musical interfaces.
+      - title: IMC
+        subtitle: Interaction, Media and Communication
+        body: |
+          IMC applies computer science, philosophy, and psychology to explore the potential of digital technologies to enable novel forms of human action and interaction.
+      - title: MMV
+        subtitle: Multimedia & Vision
+        body: |
+          MMV conducts research in image, video processing and computer vision. It takes an integrative approach, working with groups across EECS to discover new understanding in multimedia systems technology.
+      - title: NETWORKS
+        subtitle: Networks Group
+        body: |
+          Active in key areas in networking including complex and scale-free networks, mobile networks, security, intelligent services and ubiquitous computing.
+      - title: MAT
+        subtitle: Media & Arts Technology
+        body: |
+          The EPSRC Doctoral Training Centre in Media & Arts Technology offers PhD and Master’s programmes exploring the technologies that are transforming the creative sector.
+  - title: Collaborating Departments
+    colour: green
+    boxes:
+      - title: EECS
+        links: 
+          - url: http://www.eecs.qmul.ac.uk/
+            name: » School website
+      - title: FILM STUDIES
+        links:
+          - url: http://www.sllf.qmul.ac.uk/filmstudies/
+            name: » Department website
+      - title: DRAMA
+        links: 
+          - url: http://www.drama.qmul.ac.uk/
+            name: » Department website
+      - title: BUSINESS
+        links: 
+          - url: http://www.busman.qmul.ac.uk/
+            name: » School website

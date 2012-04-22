@@ -1,0 +1,37 @@
+title: Our mission
+subtitle: World-class science and technology research and teaching for media and the arts
+body: |
+  qMedia’s mission is to be the UK’s leading research centre in digital technologies for media and arts. The qMedia research groups form a multi-disciplinary team for solving digital media problems. We work in partnership with other world class organisations and institutions in the UK and further afield, with a focus on disseminating knowledge to the wider community.
+  Teaching is also a qMedia priority, driven by the EPSRC Doctoral Training Centre in Media and Arts Technology. Programmes of study include a unique 4-year PhD programme built around a combination of coursework and research, a 1-year Master’s by Research in Media and Arts Technology, and new for 2012, a B.Sc. programme in Media and Arts Technology.
+ 
+sections:
+  - title: Research Areas
+    colour: green
+    boxes:
+      - title: TECHNOLOGY RESEARCH APPLIED TO CULTURE AND THE ARTS
+        body: |
+          qMedia research spans a wide range of topics, including ubiquitous computing; sound and music computing; media informatics and retrieval; semantic web, audio and video; human-human and human-computer interaction; media coding, compression and streaming; social computing; ethnographic studies of new technology usage and more.
+          These research areas are applied across many cultural domains, including recorded and live music, film and TV, theatre, visual arts, architecture, fashion, gaming, advertising. See the research pages of our founding groups for details of our recent work.
+  - title: People
+    colour: green
+    boxes:
+      - title: Directorate
+        body: |
+          Director: Professor Mark Sandler »
+          Co-Director: Professor Pat Healey »
+          Associate Director: Martyn Ware, Illustrious Company | Heaven 17 »
+      - title: Membership
+        body: |
+          qMedia membership within the School of Electronic Engineering and Computer Science (academics and researchers) currently stands at around 200.
+  - title: Contact
+    colour: green
+    boxes:
+      - title: To find out more
+        body: |
+          For general enquiries, please contact us at:
+          qMedia
+          School of Electronic Engineering and Computer Science Queen Mary, University of London
+          Mile End Road
+          London E1 4NS
+          United Kingdom
+          Email: qmedia@eecs.qmul.ac.uk
