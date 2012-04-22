@@ -18,15 +18,15 @@ Links
 ------
 
 Bonsai:
-http://tinytree.info/
+- http://tinytree.info/
 
 Developing:
-http://tinytree.info/getting-started/
+- http://tinytree.info/getting-started/
 
 Content:
-http://tinytree.info/how-it-works/
-http://tinytree.info/managing-pages/
-http://en.wikipedia.org/wiki/YAML
+- http://tinytree.info/how-it-works/
+- http://tinytree.info/managing-pages/
+- http://en.wikipedia.org/wiki/YAML
 
 Design:
 https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
