@@ -80,12 +80,12 @@ color: grey; font-family: 'MuseoSans500';
 font-size: 13px; font-weight: 100;display: block;}
 h4{
 color: grey; font-family: 'MuseoSans500';
-font-size: 13px; font-weight: 100;display: block;text-transform: uppercase; color: #333;}
+font-size: 16px; font-weight: 100;display: block;text-transform: uppercase; color: #333;}
 h5{
 color: grey; font-family: 'MuseoSans500'; 
-font-size: 12px;display: block;text-transform: uppercase;}
+font-size: 16px;display: block;text-transform: uppercase;}
 p {
-font-size: 16px;line-height: 14px;}
+font-size: 20px;line-height: 18px;}
 
 
 /*////////// 	colours ////////////*/

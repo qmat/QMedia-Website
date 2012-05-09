@@ -11,26 +11,21 @@ sections:
   - title: Founding groups
     colour: green
     boxes:
-      - title: C4DM
-        subtitle: Centre for Digital Music
+      - subtitle: C4DM
         body: |
-          C4DM is a multidisciplinary research group in the field of music & audio technology whose work includes music informatics, machine listening, audio engineering and musical interfaces.
-      - title: IMC
-        subtitle: Interaction, Media and Communication
+          The Centre for Digital Music is a multidisciplinary research group in the field of music & audio technology whose work includes music informatics, machine listening, audio engineering and musical interfaces.
+      - subtitle: IMC
         body: |
-          IMC applies computer science, philosophy, and psychology to explore the potential of digital technologies to enable novel forms of human action and interaction.
-      - title: MMV
-        subtitle: Multimedia & Vision
+          Interaction, Media and Communication applies computer science, philosophy, and psychology to explore the potential of digital technologies to enable novel forms of human action and interaction.
+      - subtitle: MMV
         body: |
-          MMV conducts research in image, video processing and computer vision. It takes an integrative approach, working with groups across EECS to discover new understanding in multimedia systems technology.
-      - title: NETWORKS
-        subtitle: Networks Group
+          Multimedia & Vision conducts research in image, video processing and computer vision. It takes an integrative approach, working with groups across EECS to discover new understanding in multimedia systems technology.
+      - subtitle: Networks
         body: |
-          Active in key areas in networking including complex and scale-free networks, mobile networks, security, intelligent services and ubiquitous computing.
-      - title: MAT
-        subtitle: Media & Arts Technology
+          The networks group is sctive in key areas in networking including complex and scale-free networks, mobile networks, security, intelligent services and ubiquitous computing.
+      - subtitle: MAT
         body: |
-          The EPSRC Doctoral Training Centre in Media & Arts Technology offers PhD and Master’s programmes exploring the technologies that are transforming the creative sector.
+          Media & Arts Technology is an EPSRC Doctoral Training Centre offering PhD and Master’s programmes exploring the technologies that are transforming the creative sector.
   - title: Collaborating Departments
     colour: green
     boxes:

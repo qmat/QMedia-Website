@@ -108,8 +108,8 @@
 {% elsif forloop.length == 5 %}<section class="column_five">
 {% else %}<section class="column_four">
 {% endif %}
-<div class="bubble_block">
-{% if section.colour %}<span class="bubble_{{ section.colour }}">{% endif %}{{ box.title }}{% if section.colour %}</span>{% endif %}</div>{% if box.subtitle %}<h4>{{ box.subtitle }}</h4>{% endif %}
+{% if box.title %}<div class="bubble_block">
+{% if section.colour %}<span class="bubble_{{ section.colour }}">{% endif %}{{ box.title }}{% if section.colour %}</span>{% endif %}</div>{% endif %}{% if box.subtitle %}<h4>{{ box.subtitle }}</h4>{% endif %}
 <p>{{ box.body }}</p>
 {% for link in box.links %}<a href="{{ link.url }}">{{ link.name }}</a>{% unless forloop.last %}<br>{% endunless %}{% endfor %}
 </section>
