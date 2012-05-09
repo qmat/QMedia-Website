@@ -1,7 +1,7 @@
 # The key value pairs found below are available within the templates.
 # {{site_name}}, {{url}}, {{copyright}} and {{analytics_code}}
 
-:site_name: QMedia - Queen Mary, University of London
+:site_name: qMedia - Queen Mary, University of London
 :url: http://qmedia.qmul.ac.uk
 :copyright: 2012
 :analytics_code: UA-00000000-0

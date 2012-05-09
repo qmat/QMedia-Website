@@ -1,4 +1,9 @@
+<!-- logo -->
 <div id="logo"><a href="/">
 <img src="/images/Qmedia_logo_hold.svg" />
 </a></div>
 
+<!-- navigation -->
+<nav><ul>
+{% for nav in navigation reversed %}<li><a href ="{{ nav.permalink }}" >{{ nav.name }}</a></li>{% endfor %}
+</ul></nav>

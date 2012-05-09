@@ -74,7 +74,7 @@ color: black; font-family: 'Sansita One', cursive;
 font-size: 26px;line-height: 28px;}
 h2{
 color: rgba(164,8,0,1);font-family: 'Sansita One', cursive;
-font-size: 24px; font-weight: 900;display: inline;padding-left:40px;text-transform: capitalize;}
+font-size: 24px; font-weight: 900;display: inline;padding-left:40px; }
 h3{
 color: grey; font-family: 'MuseoSans500';
 font-size: 13px; font-weight: 100;display: block;}
@@ -280,7 +280,7 @@ background-color:rgba(170,190,31,1); z-index: 100;
 content:"";display:block;position:absolute;bottom:-25px;left:10px;width:0;height:0;
 border-width:15px 15px 15px 15px;border-style:solid;
 border-color: rgba(170,190,31,1) transparent transparent transparent ;}
-.bubble_blue{
+.bubble_blue_imagebox{
 position:relative; width:187px;
 padding:15px; padding-top:10px; padding-bottom:10px;  color:#fff;display:inline-block;
 background-color:rgba(3,124,253,1);
@@ -290,18 +290,18 @@ background-color:rgba(3,124,253,1);
 -moz-border-radius-topright: 20px;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;}
-.bubble_blue:after {
+.bubble_blue_imagebox:after {
 content:"";display:inline;position:absolute;bottom:-25px;left:10px;width:0;height:0;
 border-width:15px 15px 15px 15px;border-style:solid;
 border-color: rgba(3,124,253,1) transparent transparent transparent ;}
-.bubble_blue_head{
+.bubble_blue{
 position:relative; 
 padding:15px;color:#fff;display:inline-block;
 background-color:rgba(3,124,253,1);
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
 border-radius: 10px;}
-.bubble_blue_head:after {
+.bubble_blue:after {
 content:"";display:inline;position:absolute;bottom:-25px;left:10px;width:0;height:0;
 border-width:15px 15px 15px 15px;border-style:solid;
 border-color: rgba(3,124,253,1) transparent transparent transparent ;}

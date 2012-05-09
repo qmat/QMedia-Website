@@ -50,3 +50,23 @@ sections:
         links: 
           - url: http://www.busman.qmul.ac.uk/
             name: » School website
+  - title: Outside Partners
+    colour: blue
+    imagefolder: partners
+    boxes:
+      - title: BBC
+        url: http://www.bbc.co.uk/
+      - title: BT
+        url: http://www.bt.com/
+      - title: Central Saint Martins
+        url: http://www.csm.arts.ac.uk/
+      - title: Culture Lab
+        url: http://culturelab.ncl.ac.uk/
+      - title: Digital Shoreditch
+        url: http://digitalshoreditch.com/
+      - title: Goldsmiths
+        url: http://www.gold.ac.uk/
+      - title: Lean Mean Fighting Machine
+        url: http://www.leanmeanfightingmachine.co.uk/
+      - title: UVA
+        url: http://www.uva.co.uk/

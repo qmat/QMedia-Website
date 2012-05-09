@@ -45,12 +45,8 @@
 <div id ="container" role="main">
 
 <!-- header -->
-<header>{% include "shared/header" %}
-
-<!-- navigation -->
-<nav><ul>{% for nav in navigation reversed %}
-<li><a href ="{{ nav.permalink }}" >{{ nav.name }}</a></li>
-{% endfor %}</ul></nav>
+<header>
+{% include "shared/header" %}
 </header>
 
 
@@ -104,6 +100,7 @@
 {% endif %}
 
 <!-- Section content boxes -->
+{% unless section.imagefolder %}<!-- imagebox? -->
 {% for box in section.boxes %}
 {% if forloop.length == 1 %}<section class="full_content">
 {% elsif forloop.length == 2 %}<section class="half_split">
@@ -117,27 +114,18 @@
 {% for link in box.links %}<a href="{{ link.url }}">{{ link.name }}</a>{% unless forloop.last %}<br>{% endunless %}{% endfor %}
 </section>
 {% endfor %}
-
-</section>
-{% endfor %}
-
-<!-- outside partners -->
-{% if images-boxes %}
-<section class="row clearfix">
-<section class="full_content">
-<h2 class="bubble_blue_head">FIXME: Bonsai YML this, title and boxes link</h2>
-</section>
-
-<!-- Box with image -->
-{% for image in images-boxes %}
+{% else %}<!-- imagebox? -->
+{% for box in section.boxes %}
 <section class="column_four_thumb">
-<div class="bubble_block"><span class="bubble_blue">{{ image.name }}</span></div>
-<a href="#"><img src="{{ image.path }}" alt="{{ image.name }}" width="217" height="142" /></a>
+<div class="bubble_block">
+{% if section.colour %}<span class="bubble_{{ section.colour }}_imagebox">{% endif %}{{ box.title }}{% if section.colour %}</span>{% endif %}</div>
+<a href="{{ box.url }}"><img src="{% for image in images-boxes %}{% if image.name == box.title %}{{ image.path }}{% endif %}{% endfor %}" alt="{{ box.title }}" width="217" height="142" /></a>
+</section>
+{% endfor %}
+{% endunless %}<!-- imagebox? -->
 </section>
 {% endfor %}
 
-</section>
-{% endif %}
 </div>
 
 <!-- footer -->
